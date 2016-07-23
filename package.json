@@ -1,0 +1,21 @@
+{
+  "name": "ts-base",
+  "version": "1.0.0",
+  "description": "Base structure for a Typescript Nodejs project ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "watch": "nodemon build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cosmin Harangus <cosmin@around25.com>",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.14.1",
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5",
+    "vio": "^0.2.1"
+  }
+}
